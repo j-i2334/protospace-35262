@@ -15,6 +15,6 @@
     </p>
 
     <%# <%= link_to "by", root_path, class: :card__user %> 
-      <%= link_to "by#{prototype.user.name}", prototype_path(prototype.id), class: :card__user %>
+      <%= link_to "by#{prototype.user.name}", user_path(prototype.user), class: :card__user %>
   </div>
 </div>
